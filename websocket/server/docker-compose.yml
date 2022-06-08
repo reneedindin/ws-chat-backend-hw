@@ -1,0 +1,7 @@
+version: "3.0"
+
+services:
+  websocket:
+    build: .
+    ports:
+      - "12345:12345"
